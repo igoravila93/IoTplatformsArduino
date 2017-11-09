@@ -35,7 +35,7 @@ void loop()
   if (client.connect(server, 80)) {
 
       //Make a GET request
-      client.println("GET /channels/129007/fields/1/last HTTP/1.1");
+      client.println("GET /channels/<YOUR_CHANNEL_HERE>/fields/1/last HTTP/1.1");
       client.println("Host: api.thingspeak.com");
       client.println("Connection: close");
       client.println();

@@ -37,7 +37,7 @@ void loop()
       int value = toggle_flag ? 0 : 1024;
       toggle_flag = !toggle_flag;
 
-      String getRequest = "GET /update?key=1G4M9YHGMDF2WQF5&field1=" +  String(value) + "HTTP/1.0\n\n";
+      String getRequest = "GET /update?key=<YOUR_KEY_HERE>&field1=" +  String(value) + "HTTP/1.0\n\n";
 
       //Toggle output pin
       digitalWrite(LIGHT_OUTPUT_PIN, !digitalRead(LIGHT_OUTPUT_PIN));

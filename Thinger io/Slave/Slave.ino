@@ -9,10 +9,9 @@
 #include"Util.h"
 #include <ThingerWifi.h>
 
-
-#define USERNAME "IgorAvila"
-#define DEVICE_ID "Slave"
-#define DEVICE_CREDENTIAL "123456"
+#define USERNAME "YOUR_USERNAME"
+#define DEVICE_ID "YOUR_ID"
+#define DEVICE_CREDENTIAL "YOUR_ID_CREDENTIAL"
 
 //Initialize the thing with the credentials above
 ThingerWifi thing(USERNAME, DEVICE_ID, DEVICE_CREDENTIAL);

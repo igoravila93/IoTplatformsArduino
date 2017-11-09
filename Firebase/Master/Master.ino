@@ -15,8 +15,8 @@
 #include"Util.h"
 
 
-#define FIREBASE_HOST "luznanet-917c2.firebaseio.com"
-#define FIREBASE_AUTH "1tthWDWECLl9GJ0i9sMjXfmIIMcntcVzExUNdVgM"
+#define FIREBASE_HOST "<YOUR HOST>"
+#define FIREBASE_AUTH "<YOUR DATABASE SECRET>"
 
 void setup() 
 {

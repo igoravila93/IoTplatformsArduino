@@ -22,8 +22,8 @@ extern IPAddress STATIC_IP;
 extern IPAddress gateway;
 extern IPAddress subnet;
 
-const char WiFiSSID[] = "Igor";
-const char WiFiPSK[] = "44074407";
+const char WiFiSSID[] = "SSID";
+const char WiFiPSK[] = "Password";
 
 // Pin Definitions //
 const int LIGHT_OUTPUT_PIN = 4; 
